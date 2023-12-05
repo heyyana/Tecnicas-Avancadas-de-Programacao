@@ -1,0 +1,15 @@
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.AssemblyInfo.cs
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\atvHeranca\bin\Debug\net6.0\atvHeranca.exe
+C:\Users\Aluno\Documents\atvHeranca\bin\Debug\net6.0\atvHeranca.deps.json
+C:\Users\Aluno\Documents\atvHeranca\bin\Debug\net6.0\atvHeranca.runtimeconfig.json
+C:\Users\Aluno\Documents\atvHeranca\bin\Debug\net6.0\atvHeranca.dll
+C:\Users\Aluno\Documents\atvHeranca\bin\Debug\net6.0\atvHeranca.pdb
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.dll
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\refint\atvHeranca.dll
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.pdb
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\atvHeranca.genruntimeconfig.cache
+C:\Users\Aluno\Documents\atvHeranca\obj\Debug\net6.0\ref\atvHeranca.dll

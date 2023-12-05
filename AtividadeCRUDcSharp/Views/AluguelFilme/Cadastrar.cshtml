@@ -1,0 +1,37 @@
+﻿@model AluguelFilmeModel
+@{
+    ViewData["title"] = "Cadastrar Aluguel do Filme";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center">
+        <h1 class="text-light">Cadastro de Aluguel de Filme</h1>
+    </div>
+    <form method="post" asp-controller="AluguelFilme" asp-action="Cadastrar">
+        <div class="form-group">
+            <label for="Locador" class="text-light">Endereço de email</label>
+            <input type="text" class="form-control" asp-for="Locador" id="Locador" aria-describedby="emailHelp" placeholder="Quem alugou o filme" />
+            <span class="text-danger" asp-validation-for="Locador"></span>
+        </div>
+        <div class="form-group">
+            <label for="Funcionario" class="text-light">Funcionario</label>
+            <input type="text" class="form-control" asp-for="Funcionario" id="Funcionario" aria-describedby="emailHelp" placeholder="Que funcionário anotou?" />
+            <span class="text-danger" asp-validation-for="Funcionario"></span>
+        </div>
+        <div class="form-group">
+            <label for="Filme" class="text-light">Filme</label>
+            <input type="text" class="form-control" asp-for="Filme" id="Livro" aria-describedby="emailHelp" placeholder="Que filme?" />
+            <span class="text-danger" asp-validation-for="Filme"></span>
+        </div>
+        <div class="form-group">
+            <label for="Genero" class="text-light">Genero</label>
+            <input type="text" class="form-control" asp-for="Genero" id="Livro" aria-describedby="emailHelp" placeholder="Qual é o genero?" />
+            <span class="text-danger" asp-validation-for="Genero"></span>
+        </div>
+        <div class="d-flex gap-5 mt-5">
+            <button type="submit" class="btn btn-success w-50">Enviar</button>
+            <a class="btn btn-primary w-50" asp-controller="AluguelFilme" asp-action="Index">Voltar</a>
+        </div>
+    </form>
+</div>

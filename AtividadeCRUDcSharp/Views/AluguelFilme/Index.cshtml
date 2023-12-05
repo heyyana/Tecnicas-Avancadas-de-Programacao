@@ -1,0 +1,39 @@
+﻿@model IEnumerable<AluguelFilmeModel>
+
+<div class="container">
+	<div class="d-flex justify-content-between align-items-center mb-5">
+		<h1>Alugueis</h1>
+		<a class="btn btn-success mx-2" asp-controller="AluguelFilme" asp-action="Cadastrar">Cadastrar novo aluguel</a>
+	</div>
+</div>
+
+<table class="table table-striped table-dark">
+	<thead>
+		<tr>
+			<th scope="col">Locador</th>
+			<th scope="col">Funcionário</th>
+			<th scope="col">Filme</th>
+			<th scope="col">Genero</th>
+			<th scope="col">Data</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model != null)
+		{
+			@foreach (var aluguel in Model)
+			{
+				<tr>
+					<th scope="row">@aluguel.Locador</th>
+					<td>@aluguel.Funcionario</td>
+					<td>@aluguel.Filme</td>
+					<td>@aluguel.Genero</td>
+					<td>@aluguel.Data</td>
+					<td>
+						<a asp-controller="AluguelFilme" asp-action="Editar" asp-route-id="@aluguel.Id" class="btn btn-warning mx-2">Editar</a>
+						<a asp-controller="AluguelFilme" asp-action="Excluir" asp-route-id="@aluguel.Id" class="btn btn-warning mx-2">Excluir</a>
+					</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>
